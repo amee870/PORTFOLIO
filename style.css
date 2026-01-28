@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #718fad;
+    color: #333;
+}
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #0f172a;
+}
+
+nav .logo {
+    color: #38bdf8;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(102, 103, 161);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #38bdf8, #1e40af);
+    color: rgb(61, 90, 114); 
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+/* CARD SECTIONS */
+.card {
+    background: rgb(67, 125, 128);
+    margin: 30px auto;
+    padding: 30px;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: #1e40af;
+    margin-bottom: 15px;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #5f8661;
+    color: #0369a1;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+/* PROJECTS */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.project-box {
+    background: rgb(102, 103, 161) ;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #38bdf8;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0f172a;
+    color: rgb(102, 103, 161) ;
+    margin-top: 40px;
+}
